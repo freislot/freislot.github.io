@@ -1,9 +1,9 @@
 # freislot.github.io
 
-![Image]()
-https://special.habr.com/
+![Image](https://freislot.github.io/image.png)
 
 Я принял вызов от Хабр Карьера и Хекслет.
 Здесь опубликованы код и демо решенных мною заданий.
+https://special.habr.com/
 
 Задание 1 [Рабочее демо](https://freislot.github.io/task1/) | [Код](https://github.com/freislot/freislot.github.io/blob/main/task1/index.html)
