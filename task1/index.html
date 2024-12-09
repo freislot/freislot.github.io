@@ -21,6 +21,7 @@
       background: rgba(244, 245, 247, 1);
       font-family: "Roboto", sans-serif;
       color: rgba(255, 255, 255, 1);
+      padding: 0 16px;
     }
 
     h1 {
@@ -38,6 +39,12 @@
       padding: 60px;
       position: relative;
       overflow: hidden;
+    }
+
+    @media screen and (max-width: 768px) {
+      #app {
+        padding: 36px;
+      }
     }
 
     #app>svg {
@@ -165,7 +172,7 @@
     <div class="wrapper">
       <h1>Тестовое задание #1</h1>
       <a class="task-link" href="https://drive.google.com/file/d/1l2vMaLkPW__E7GFuzYA89IeVOSTPlJ6O/view?pli=1"
-      target="_blank">Описание задания</a>
+        target="_blank">Описание задания</a>
 
       <div class="input">
         <input type="number" id="time-input" placeholder="Введите время в секундах">
