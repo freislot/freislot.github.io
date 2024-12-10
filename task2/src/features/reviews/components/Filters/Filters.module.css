@@ -5,6 +5,14 @@
   margin-bottom: 32px;
   margin-top: 8px;
 }
+
+@media screen and (max-width: 768px){
+  .filters {
+    flex-direction: column;
+    height: 192px;
+  }
+}
+
 .filters select{
   background: #fff;
   border-radius: 8px;
