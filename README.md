@@ -9,3 +9,4 @@
 Ссылка на проект - https://special.habr.com/
 
 Задание 1 [Рабочее демо](https://freislot.github.io/task1/) | [Код](https://github.com/freislot/freislot.github.io/blob/main/task1/index.html)
+
