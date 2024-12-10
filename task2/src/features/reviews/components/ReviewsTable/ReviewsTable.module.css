@@ -1,0 +1,13 @@
+.table {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  .table {
+    width: 500px;
+  }
+  .tableWrapper {
+    width: 100%;
+    overflow: scroll;
+  }
+}

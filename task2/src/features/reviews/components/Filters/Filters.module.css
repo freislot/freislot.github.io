@@ -1,0 +1,16 @@
+.filters {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 8px;
+}
+.filters select{
+  background: #fff;
+  border-radius: 8px;
+  height: 64px;
+  border: 0;
+  outline: 0;
+  padding: 0 16px;
+  flex: 1;
+}

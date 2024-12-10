@@ -1,0 +1,59 @@
+.loader_containerNew{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(22, 21, 21, 1);
+    border-radius: 32px;
+    z-index: 999;
+}
+
+.loaderNew {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 94px;
+    height: 94px;
+    border: 13px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+}
+.loaderNew div{
+    width: 94px;
+    height: 94px;
+    position: absolute;
+    top: -13px;
+    left: -13px;
+    animation: rotate 1s cubic-bezier(0.22, 0.36, 0.73, 0.87) infinite;
+}
+.loaderNew svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@-webkit-keyframes rotate {
+    0%{
+        -webkit-transform: rotate(110deg)
+    }
+    100%{
+        -webkit-transform: rotate(470deg)
+    }
+}
+@keyframes rotate {
+    0%{
+        -webkit-transform: rotate(110deg)
+    }
+    100%{
+        -webkit-transform: rotate(470deg)
+    }
+}
+.shadow{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    z-index: 0;
+    border-radius: 0 0 0 32px;
+}
