@@ -8,6 +8,6 @@
 
 Выполнить команду
 
-### `npm run start`
+### `npm run dev`
 
 Сервер запустится по адресу http://localhost:3000
